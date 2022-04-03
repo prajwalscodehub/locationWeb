@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+
+
     <%@ include file = "menu.jsp" %>
 <!DOCTYPE html>
 <html>
@@ -13,16 +15,16 @@
 <table border= "1">
 <tr>
 <th>
-id<input type = text name = "id" >
+Enter id<input type = text name = "id" >
 </th>
 <th>
-code<input type = text name = "codes">
+Enter code<input type = text name = "codes">
 </th>
 <th>
-name<input type = text name = "name">
+Enter name<input type = text name = "name">
 </th>
 <th>
-type :
+Enter type :
 rural<input type = radio name = "type" value= "rural">
 urban<input type = radio name = "type" value= "urban">
 
@@ -33,13 +35,7 @@ urban<input type = radio name = "type" value= "urban">
 </table>
 
 <input type= submit value= save>
-
-
-
-
-
 </form>
 ${msg}
-
 </body>
 </html>
